@@ -1,4 +1,6 @@
-aside{
+#main-container {
     background-color: aqua;
-    
+    height: 500;
+    width: 400;
 }
+
