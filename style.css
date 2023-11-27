@@ -29,13 +29,25 @@
  
 } 
 
-.white-box{
-    background-color: violet;
+.profile-box1{
+    background-color:rgb(184, 110, 110);
+    width: 16vw;
+    height: 16vw;
     position: relative;
-    width: 10vw;
-    height: 10vw;
+    top: 26vh;
+    left: 21.4vw;
 
+    position: absolute;
 }
 
+.profile-box2{
+    background-color:rgb(110, 162, 184);
+    width: 16vw;
+    height: 16vw;
+    position: relative;
+    top: 22.5vh;
+    left: 22vw;
+
+}
 
 
