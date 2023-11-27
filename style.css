@@ -1,40 +1,44 @@
+/* Font import */
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Questrial&family=Raleway:wght@400;500;600;700&display=swap');
+
+
+
+
+
 .main-container{
     display: flex;
     justify-content: space-between;
 
 }
 
+
+/* left box */
 .left-box{
     
-    width: 28vw;
-    height: 98vh;
+    width: 25vw;
+    height: 97vh;
     display: flex;
     position: absolute;
     
  }
  
- .right-box{
-     background-color: aqua;
-     height: 98vh;
-     width: 70vw;
- }
-
-
-.aside {
-    display: flex;
+ 
+ 
+ .aside {
+     display: flex;
     flex-direction: column;
     background-color:black;
     width: 6vw;
-    height: 98vh;
+    height: 97vh;
     color: white; 
     justify-content: center;
     align-items: center;
-
+    
 }
- 
+
 .box-2{ 
- background-color:black;
- margin-left: 15px;
+    background-color:black;
+    margin-left: 15px;
  width: 20vw;
  height: 98vh;
  
@@ -47,7 +51,7 @@
     position: relative;
     top: 26vh;
     left: 21.4vw;
-
+    
     position: absolute;
 }
 
@@ -61,4 +65,41 @@
 
 }
 
+.line{
+    position: relative;
+    height: 12vh;
+    background-color:black;
+    width: 3px;
+    top: 33.5vh;
+    left:18vw;
+}
 
+
+/* Right box  */
+
+.right-box{
+    background-color: aqua;
+    height: 98vh;
+    width:70vw;
+    
+}
+
+h2{
+    font-family:'Montserrat',sans-serif;
+    position: relative;
+    width: 25vw;
+    top: 31.5vh;
+    left: 13.5vw;
+    
+    font-size: 30px;
+    
+}
+h3{
+    font-family:'Montserrat',sans-serif;
+    position: relative;
+    width: 25vw;
+    top: 29vh;
+    left: 13.8vw;
+    font-size: 15px;
+
+}
