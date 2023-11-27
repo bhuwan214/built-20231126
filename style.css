@@ -3,7 +3,9 @@
 
 
 
-
+body{
+    overflow: hidden;
+}
 
 .main-container{
     display: flex;
@@ -29,7 +31,7 @@
     flex-direction: column;
     background-color:black;
     width: 6vw;
-    height: 97vh;
+    height: 98vh;
     color: white; 
     justify-content: center;
     align-items: center;
@@ -78,7 +80,7 @@
 /* Right box  */
 
 .right-box{
-    background-color: aqua;
+    
     height: 98vh;
     width:70vw;
     
