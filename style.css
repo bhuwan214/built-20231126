@@ -1,13 +1,24 @@
+.main-container{
+    display: flex;
+    justify-content: space-between;
 
+}
 
 .left-box{
-    background-color: aqua;
+    
     width: 28vw;
     height: 98vh;
     display: flex;
     position: absolute;
     
  }
+ 
+ .right-box{
+     background-color: aqua;
+     height: 98vh;
+     width: 70vw;
+ }
+
 
 .aside {
     display: flex;
@@ -30,7 +41,7 @@
 } 
 
 .profile-box1{
-    background-color:rgb(184, 110, 110);
+    background-color:white;
     width: 16vw;
     height: 16vw;
     position: relative;
