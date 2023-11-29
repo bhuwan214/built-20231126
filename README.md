@@ -5,3 +5,5 @@
 
 >> I been just getting serious at web development
  still  i has little to no knowledge about it 
+
+>>Third day layout is complete it takes while, but i am going slow so it's ok

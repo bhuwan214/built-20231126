@@ -37,7 +37,24 @@ body{ height: 97vh;
     color: white; 
     justify-content: center;
     align-items: center;
+
     
+}
+
+.aside >li{
+
+    list-style:none;
+    text-transform: uppercase;
+}
+
+li:nth-child(even){
+    
+    padding-bottom: 40px;
+}
+
+li:nth-child(odd){
+    
+    padding-bottom: 40px;
 }
 
 .box-2{ 
@@ -69,14 +86,6 @@ body{ height: 97vh;
 
 }
 
-.line{
-    position: relative;
-    height: 12vh;
-    background-color:black;
-    width: 3px;
-    top: 33.5vh;
-    left:18vw;
-}
 
 
 /* Right box  */
@@ -85,16 +94,25 @@ body{ height: 97vh;
     position: absolute;
     height: 98vh;
     width:70vw;
+    margin-left: 600px;
     
+}
+
+.line{
+    position: relative;
+    height: 12vh;
+    background-color:black;
+    width: 3px;
+    top: 32vh;
+    left:3vw;
 }
 
 h2{
     font-family:'Montserrat',sans-serif;
     position: relative;
     width: 25vw;
-    top: 31.5vh;
-    left: 13.5vw;
-    
+    top: 18.5vh;
+    left: 4vw;
     font-size: 30px;
     
 }
@@ -102,21 +120,21 @@ h3{
     font-family:'Montserrat',sans-serif;
     position: relative;
     width: 25vw;
-    top: 29vh;
-    left: 13.8vw;
+    top: 16vh;
+    left: 4.2vw;
     font-size: 15px;
 
 }
 
 .social-handle{
     display: block;
-    top: 40vh;
-    left: -1vw;
+    top: 27vh;
+    left: -8vw;
     position: relative;
     text-align: center;
     justify-content: center;
     background-color: blue;
-    width: 300px;
+    width: 150px;
     height: 30px;
     font-size: 10px;
 }
@@ -131,20 +149,23 @@ button{
   height: 45px;
   margin-left :25px ;
   position: relative;
-  top: 35vh;
-  left: 27vh;
+  top: 22vh;
+  left: 3vw;
 
 }
 
 
 .learn{
     display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family:'Montserrat',sans-serif;
     background-color: black;
     width: 60px;
     height: 60px;
-    /* text-align: end;
-    color: white; */
+    
+    color: white;
     position: relative;
-    top: 0px;
-    right: 15px;
+    top: -17.5vw;
+    right: -55.3vw;
 }
