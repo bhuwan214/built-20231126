@@ -105,3 +105,16 @@ h3{
     font-size: 15px;
 
 }
+
+.social-handle{
+    display: block;
+    top: 45vh;
+    left: -1vw;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    background-color: blue;
+    width: 300px;
+    height: 30px;
+    font-size: 10px;
+}
