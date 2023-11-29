@@ -3,21 +3,23 @@
 
 
 
-body{
+body{ height: 97vh;
+    width: 97vw;
     overflow: hidden;
 }
 
 .main-container{
     display: flex;
     justify-content: space-between;
-
+    height: 97vh;
+    width: 97vw;
 }
 
 
 /* left box */
 .left-box{
     
-    width: 25vw;
+    width: 28vw;
     height: 97vh;
     display: flex;
     position: absolute;
@@ -41,7 +43,7 @@ body{
 .box-2{ 
     background-color:black;
     margin-left: 15px;
- width: 20vw;
+ width: 21vw;
  height: 98vh;
  
 } 
@@ -50,7 +52,7 @@ body{
     background-color:white;
     width: 16vw;
     height: 16vw;
-    position: relative;
+    
     top: 26vh;
     left: 21.4vw;
     
@@ -80,7 +82,7 @@ body{
 /* Right box  */
 
 .right-box{
-    
+    position: absolute;
     height: 98vh;
     width:70vw;
     
@@ -132,4 +134,17 @@ button{
   top: 35vh;
   left: 27vh;
 
+}
+
+
+.learn{
+    display: flex;
+    background-color: black;
+    width: 60px;
+    height: 60px;
+    /* text-align: end;
+    color: white; */
+    position: relative;
+    top: 0px;
+    right: 15px;
 }
