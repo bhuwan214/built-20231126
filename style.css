@@ -13,10 +13,7 @@ html,body{
 }
 
 
-body{ height: 97vh;
-    width: 97vw;
-    overflow: hidden;
-}
+
 
 .main-container{
     display: flex;
@@ -103,7 +100,7 @@ li:nth-child(odd){
 .right-box{
     position: absolute;
     height: 98vh;
-    width:70vw;
+    width:60vw;
     margin-left: 600px;
     
 }
@@ -113,7 +110,7 @@ li:nth-child(odd){
     height: 12vh;
     background-color:black;
     width: 3px;
-    top: 32vh;
+    top: 34vh;
     left:3vw;
 }
 
@@ -121,7 +118,7 @@ h2{
     font-family:'Montserrat',sans-serif;
     position: relative;
     width: 25vw;
-    top: 18.5vh;
+    top: 23.5vh;
     left: 4vw;
     font-size: 30px;
     
@@ -130,7 +127,7 @@ h3{
     font-family:'Montserrat',sans-serif;
     position: relative;
     width: 25vw;
-    top: 16vh;
+    top: 23.5vh;
     left: 4.2vw;
     font-size: 15px;
 
@@ -138,7 +135,7 @@ h3{
 
 .social-handle{
     display: block;
-    top: 27vh;
+    top: 33.5vh;
     left: -8vw;
     position: relative;
     text-align: center;
@@ -159,7 +156,7 @@ button{
   height: 45px;
   margin-left :25px ;
   position: relative;
-  top: 22vh;
+  top: 29vh;
   left: 3vw;
 
 }
@@ -176,6 +173,6 @@ button{
     
     color: white;
     position: relative;
-    top: -17.5vw;
+    top: -12.5vw;
     right: -55.3vw;
 }
