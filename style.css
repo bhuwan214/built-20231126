@@ -86,7 +86,7 @@ li:nth-child(odd){
 .profile-box2{
     background-color:gray;
     background-image: url("muji.png") ;
-    background-size: contain ;
+    background-size: 350px;
     background-repeat: no-repeat;
     background-position: center;
     width: 16vw;
@@ -102,10 +102,10 @@ li:nth-child(odd){
 /* Right box  */
 
 .right-box{
-    position: absolute;
+    
     height: 98vh;
     width:60vw;
-    margin-left: 600px;
+
     
 }
 
