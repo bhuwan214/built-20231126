@@ -181,10 +181,10 @@ button{
     right: -57vw;
 }
 
-.nav-icon,img{
+img{
     position: relative;
 
-    filter: grayscale(100);
+    filter: grayscale(1)invert(1);
     height: 20px;
     width: 20px;
 }
