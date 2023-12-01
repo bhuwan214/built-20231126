@@ -155,14 +155,14 @@ h3{
     font-size: 10px;
 }
 
-.social-handle >li{
+.social-handle>a >li{
     list-style: none;
-    padding: 10px;
+    padding:10px ;
 
     
 }
 
-.social-handle>li>img{ 
+.social-handle>a>li>img{ 
     height: 20px;
     width: 20px;
 }
