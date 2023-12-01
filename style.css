@@ -18,8 +18,8 @@ html,body{
 .main-container{
     display: flex;
     justify-content: space-between;
-    height: 97vh;
-    width: 97vw;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -40,7 +40,7 @@ html,body{
     flex-direction: column;
     background-color:black;
     width: 130px;
-    height: 98vh;
+    height: 100%;
     color: white; 
     justify-content: center;
     align-items: center;
@@ -68,7 +68,7 @@ li:nth-child(odd){
     background-color:black;
     margin-left: 15px;
  width: 21vw;
- height: 98vh;
+ height: 100%;
  
 } 
 
@@ -86,15 +86,15 @@ li:nth-child(odd){
 .profile-box2{
     background-color:gray;
     background-image: url("muji.png") ;
-    background-size: 350px;
+    background-size: 440px;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: center;
     width: 16vw;
     height: 16vw;
     position: relative;
     top: 23vh;
     left: 22.5vw;
-    border-radius: 2.5px;
+    
 }
 
 
