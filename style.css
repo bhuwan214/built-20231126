@@ -10,6 +10,7 @@
 html,body{
     height: 100%;
     width: 100%;
+    
 }
 
 
@@ -27,7 +28,7 @@ html,body{
 .left-box{
     
     width: 28vw;
-    height: 97vh;
+    height:100%;
     display: flex;
     position: absolute;
     
@@ -138,16 +139,22 @@ h3{
 }
 
 .social-handle{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     top: 35.5vh;
     left: -5vw;
     position: relative;
-    text-align: center;
-    justify-content: center;
-    background-color: blue;
+    
+    background-color: rgb(153, 153, 176);
     width: 150px;
     height: 30px;
     font-size: 10px;
+}
+
+.social-handle >li{
+    list-style: none;
+    padding: 5px;
 }
 
 button{
@@ -178,7 +185,7 @@ button{
     color: white;
     position: relative;
     top: -13vw;
-    right: -57vw;
+    right: -55vw;
 }
 
 img{
