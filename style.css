@@ -49,10 +49,10 @@ html,body{
     
 }
 
-.aside>li{
+.aside>a>li{
     list-style: none;
 }
- .aside>li>img{
+ .aside>a>li>img{
     position: relative;
     filter: grayscale(1)invert(1);
     height: 20px;
