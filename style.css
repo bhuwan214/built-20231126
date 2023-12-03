@@ -219,7 +219,7 @@ button:hover {
   }
 
 .profile-box2{
-  width: 95vw;
+  width: 92vw;
   height: 60%;
   top: 75px;
   left: 15px;
@@ -237,7 +237,7 @@ button:hover {
   width: 300px;
   font-size: 25px;
   position: relative;
-top: 550px;
+  top: 538px;
 }
 
 .right-box>h3{
@@ -246,13 +246,13 @@ top: 550px;
   width: 300px;
   font-size: 15px;
   position: relative;
-  top: 550px;
+  top: 540px;
   left: 38px;
 }
 
 .button{
   display: flex;
-  margin: 10px;
+  margin: 20px;
   
 }
 
@@ -264,6 +264,10 @@ top: 550px;
   left: 120px;
 }
 
+.social-handle{
+  top: 560px;
+  left: 200px;
+}
 
 /* Hidden content for layout*/
   
