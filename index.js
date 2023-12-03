@@ -44,3 +44,26 @@ gsap.from(".line",{
     scale:1.5,
 })
 
+gsap.from(".social-handle",{
+    y:50,
+    duration:2,
+    delay:0.5,
+    opacity:0,
+    scale:1.5,
+})
+
+gsap.from(".aside",{
+    x:200,
+    duration:2,
+    delay:0.5,
+    opacity:0,
+    scale:1.5,
+})
+
+gsap.from(".left-box ",{
+    x:200,
+    duration:2,
+    delay:0.5,
+    opacity:0,
+    scale:1.5,
+})
