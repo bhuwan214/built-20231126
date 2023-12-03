@@ -218,15 +218,58 @@ button:hover {
     align-items: center;
   }
 
+.profile-box2{
+  width: 95vw;
+  height: 60%;
+  top: 75px;
+  left: 15px;
+  background-size: cover;
+  position: absolute;
+}
+
+.right-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.right-box>h2{
+  color: rgb(35, 34, 34);
+  width: 300px;
+  font-size: 25px;
+  position: relative;
+top: 550px;
+}
+
+.right-box>h3{
+
+  color: rgb(35, 34, 34);
+  width: 300px;
+  font-size: 15px;
+  position: relative;
+  top: 550px;
+  left: 38px;
+}
+
+.button{
+  display: flex;
+  margin: 10px;
+  
+}
+
+.button>button{
+  margin:5px;
+  font-size: 15px;
+   position: relative; 
+  top: 555px;
+  left: 120px;
+}
 
 
 /* Hidden content for layout*/
   
-  .profile-box1{
-    display: none;
-  }
-  
-  .learn {
-    display: none;
-  }
+  .profile-box1{display: none;}
+
+  .learn {display: none;}
+
+  .line{display: none;}
 }
