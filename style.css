@@ -156,6 +156,14 @@ button {
   position: relative;
   top: 30.5vh;
   left: 6vw;
+  
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
 }
 
 .learn {
@@ -166,9 +174,9 @@ button {
   background-color: black;
   width: 60px;
   height: 60px;
-
   color: white;
   position: relative;
   top: -13vw;
   right: -55vw;
 }
+
