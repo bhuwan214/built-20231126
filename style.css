@@ -220,8 +220,8 @@ button:hover {
   }
 
 .profile-box2{
-  width: 92vw;
-  height: 60%;
+  width: 94.5vw;
+  height: 55vh;
   top: 75px;
   left: 15px;
   background-size: cover;
@@ -238,7 +238,7 @@ button:hover {
   width: 300px;
   font-size: 25px;
   position: relative;
-  top: 538px;
+  top: 68vh;
 }
 
 .right-box>h3{
@@ -247,8 +247,8 @@ button:hover {
   width: 300px;
   font-size: 15px;
   position: relative;
-  top: 540px;
-  left: 38px;
+  top: 68vh;
+  left: 7vw;
 }
 
 .button{
@@ -261,13 +261,13 @@ button:hover {
   margin:5px;
   font-size: 15px;
    position: relative; 
-  top: 73vh;
+  top: 70vh;
   left: 25vw;
 }
 
 .social-handle{
-  top: 560px;
-  left: 200px;
+  top: 70vh;
+  left: 40vw;
 }
 
 /* Hidden content for layout*/
